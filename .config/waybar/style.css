@@ -1,0 +1,24 @@
+* {
+    font-family: "Inter";
+    font-size: 13px;
+}
+
+window#waybar {
+    color: #fafafa;
+    background-color: #272040;
+}
+
+#clock {}
+
+#window {
+    padding: 0px 2px;
+}
+
+#cpu, #memory, #disk {
+    padding: 0px 3px; /* https://www.w3schools.com/css/css_padding.asp */
+}
+
+#cpu {
+    background-color: #444444;
+}
+
